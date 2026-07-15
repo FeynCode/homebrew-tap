@@ -10,7 +10,7 @@
 class Tachyon < Formula
   desc "Full-fledged terminal coding agent"
   homepage "https://tachyon.feyncode.com"
-  version "0.6.0"
+  version "0.7.0"
   license :cannot_represent # proprietary FeynCode EULA — no SPDX identifier
 
   depends_on :macos # only darwin assets are published today
@@ -18,11 +18,11 @@ class Tachyon < Formula
   on_macos do
     on_arm do
       url "https://tachyon.feyncode.com/releases/v#{version}/tachyon-darwin-arm64"
-      sha256 "a2460a5f4a28d1d96cc1b6bbe0b0a1ab08db8d7537dd0e591dea13426211f46a"
+      sha256 "e716198d90944509532d48ab0496109afdbf04f09c67f2e080cd16e9dec22b99"
     end
     on_intel do
       url "https://tachyon.feyncode.com/releases/v#{version}/tachyon-darwin-x64"
-      sha256 "a68e5e43d340573a3cac52e726862c0cc5c3eee277ed746aa6432c225eb2efa7"
+      sha256 "df001a83444fc0878af76a9d4d4070fa23b6b43baa6145bd186c68cdf9a27fe3"
     end
   end
 
