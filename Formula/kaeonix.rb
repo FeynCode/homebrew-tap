@@ -10,7 +10,7 @@
 class Kaeonix < Formula
   desc "Full-fledged terminal coding agent"
   homepage "https://kaeonix.com"
-  version "0.0.25"
+  version "0.0.26"
   license :cannot_represent # proprietary FeynCode EULA — no SPDX identifier
 
   depends_on :macos # only darwin assets are published today
@@ -18,11 +18,11 @@ class Kaeonix < Formula
   on_macos do
     on_arm do
       url "https://kaeonix.com/releases/v#{version}/kaeonix-darwin-arm64"
-      sha256 "c2b60fe8f918b393c5d05060d6293211d0a28af0f4b03533eaedf4b4ca4f8767"
+      sha256 "b6e15bf8db84059422a9603c8619514b85b0a274bd2ed530953416ed12c7f309"
     end
     on_intel do
       url "https://kaeonix.com/releases/v#{version}/kaeonix-darwin-x64"
-      sha256 "eb6e0e261eac011bb17c342cab512f7e94a83531c252144255ca7b9aa00b0e22"
+      sha256 "c94ee5a2e53f27f52de090bfaadbc9ff44f886b7efd784d701fdc90dd51dc637"
     end
   end
 
